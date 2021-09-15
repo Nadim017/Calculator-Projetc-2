@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: rgb(204, 200, 200);
+}
+
+.main-div{
+    text-align: center;
+     padding: 30px;
+    }
+
+.card{
+    margin-top: 10px;
+    box-shadow: 0 4px 4px 0 rgba(226, 83, 12, 0.5) ;
+    transition: .5s;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.card:hover{
+    box-shadow:  0 12px 12px 0 rgba(226, 83, 12, 0.5);
+}
+
+.card-head{
+    padding:10px;
+}
+
+.card-head .text-field{
+    height: 100px;
+    width: 300px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 3px;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.card-body .btn{
+    height: 60px;
+    width: 65px;
+    font-weight: bold;
+    background: rgb(103, 223, 231);
+    padding: 10px;
+}
+
+.btn:hover{
+    color: rgb(178, 172, 230);
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.btn-style{
+    background-color: rgb(196, 197, 224) !important;
+}
